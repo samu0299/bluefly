@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women's Shoes - Bluefly</title>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="shoes.css">
+</head>
+
+<body>
+    <div class="navcontainer">
+        <div class="navbar">
+            <div class="logo">
+                <img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/files/BLUEFLY-LOGO-11-20.png?v=1574278243" />
+            </div>
+            <div class="search">
+                <button></button>
+            </div>
+            <div class="login">
+                <button></button>
+            </div>
+            <div class="cart">
+                <button></button>
+            </div>
+        </div>
+        <div class="categories">
+            <button class="catname">SHOES</button>
+            <button class="catname">HANDBAGS AND ACCESSORIES</button>
+            <button class="catname">DESIGNERS</button>
+            <button class="catname">WOMEN</button>
+            <button class="catname">MEN</button>
+            <button class="catname">SUNGLASSES</button>
+            <button class="catname">JEWELRY & WATCHES</button>
+            <button class="catname">UNDER &50</button>
+            <button class="catname">BEAUTY</button>
+            <button class="catname">CLEARANCE</button>
+        </div>
+        <div class="black">
+            <p> WELCOME TO BLUEFLY : Luxury brands at dicounted prices</p>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Women's Shoes</h1>
+        <div class="conthead">
+            <div class="headleft">
+                <p>Showing 14762 results for "Women's Shoes"</p>
+            </div>
+            <div class="headright"><select>
+                    <option>Price low to high</option>
+                    <option>Price high to low</option>
+                </select></div>
+        </div>
+        <div class="products">
+            <div class="left">
+                <div class="h">
+                    <h3>CATEGORY</h3>
+                    <input type="checkbox" /><label>Boots - Ankle</label><br>
+                    <input type="checkbox" /><label>Boots - Booties</label><br>
+                    <input type="checkbox" /><label>Boots - Knee-High</label><br>
+                    <input type="checkbox" /><label>Boots - Ober the Knee</label><br>
+                    <input type="checkbox" /><label>Espadrilles</label><br>
+                    <input type="checkbox" /><label>Flats</label><br>
+                    <input type="checkbox" /><label>Mules & Sliders</label><br>
+                    <input type="checkbox" /><label>Pumps & Heels</label><br>
+                    <hr>
+                </div>
+                <div class="h">
+                    <h3>BRAND</h3>
+                    <input type="checkbox" /><label>Alexander McQueen</label><br>
+                    <input type="checkbox" /><label>Antonio Maurizi</label><br>
+                    <input type="checkbox" /><label>Aquatalia</label><br>
+                    <input type="checkbox" /><label>Balenciaga</label><br>
+                    <input type="checkbox" /><label>Bottega Veneta</label><br>
+                    <input type="checkbox" /><label>Burberry</label><br>
+                    <input type="checkbox" /><label>Chanel</label><br>
+                    <input type="checkbox" /><label>Chloe</label><br>
+                    <hr>
+                </div>
+                <div class="h">
+                    <h3>SHOE SIZE</h3>
+                    <input type="checkbox" /><label>3</label><br>
+                    <input type="checkbox" /><label>4</label><br>
+                    <input type="checkbox" /><label>4.5</label><br>
+                    <input type="checkbox" /><label>5</label><br>
+                    <input type="checkbox" /><label>5.5</label><br>
+                    <input type="checkbox" /><label>6</label><br>
+                    <input type="checkbox" /><label>6.5</label><br>
+                    <input type="checkbox" /><label>7</label><br>
+                    <hr>
+                </div>
+                <div class="h">
+                    <h3>HEEL - HEIGHT</h3>
+                    <input type="checkbox" /><label>Flat Heel</label><br>
+                    <input type="checkbox" /><label>High Heel </label><br>
+                    <input type="checkbox" /><label>Low Heel</label><br>
+                    <input type="checkbox" /><label>Medium Heel</label><br>
+                    <input type="checkbox" /><label>Medium Heel (2" - 3")</label><br>
+                    <input type="checkbox" /><label>Ultra High Heel</label><br>
+                    <input type="checkbox" /><label>Ultra High Heel (4" +)</label><br>
+                    <hr>
+                </div>
+            </div>
+            <!-- this is div to append the data -->
+            <div class="right">
+
+            </div>
+        </div>
+    </div>
+    <script>
+
+        window.onscroll = function () { myFunction() };
+
+        var header = document.getElementById("navcontainer");
+
+        var stayNav = header.offsetTop;
+        function myFunction() {
+            if (window.pageYOffset > stayNav) {
+                header.classList.add("stayNav");
+            }
+            else {
+                header.classList.remove("stayNav");
+            }
+        }
+    </script>
+</body>
+<script src="shoes.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+</html>

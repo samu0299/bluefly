@@ -1,0 +1,81 @@
+.slider1,
+    .slider5 {
+        margin: auto;
+        padding: 10px;
+        height: 600px;
+        /* border: 1px solid red; */
+        background-color: rgb(200, 221, 215);
+    }
+
+    .twotop {
+        text-align: center;
+    }
+
+    .twogrid {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: auto;
+        grid-gap: 10px;
+    }
+
+    .grid>img {
+        height: 200px;
+        width: 200px;
+    }
+
+    .grid>h3 {
+        text-align: center;
+        font-family: sans-serif;
+    }
+
+    .three {
+        /* border:1px solid red; */
+        display: flex;
+        /* margin:auto; */
+        padding: 10px;
+    }
+
+    .three>div {
+        /* border: 1px solid red; */
+        width: 345px;
+        height: 523px;
+        margin: auto;
+        /* flex-wrap: wrap; */
+        /* padding: 20px; */
+    }
+
+    .three>div>img {
+        width: 100%;
+    }
+
+    .four {
+        text-align: center;
+        margin: auto;
+        padding: 10px;
+    }
+
+    .four>div>button {
+        background-color: transparent;
+        border: 1px solid rgb(175, 174, 174);
+        padding: 10px;
+        width: 100px;
+
+    }
+
+    .box {
+        display: flex;
+        padding: 10px;
+        /* border:1px solid red; */
+    }
+
+    .fourbox {
+        margin: auto;
+        padding: 10px;
+        width: 200px;
+        /* height: 300px; */
+        /* border:1px solid red; */
+    }
+
+    .fourbox>img {
+        width: 200px;
+    }

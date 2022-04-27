@@ -3,7 +3,7 @@ About A web application to order Clothing ,accessories and fashion products. Ind
 
 ### Homepage
 
-![Bigbasket](./bigBasket.png)
+![Bluefly](./bigBasket.png)
 
 There are 10 files
 

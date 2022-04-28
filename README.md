@@ -1,13 +1,13 @@
 # bluefly
-About A web application to order Clothing ,accessories and fashion products. Individual project in Masai School on the BigBasket website clone.
+About A web application to order Clothing ,accessories and fashion products. Individual project in Masai School on the Bluefly website clone.
 
 ### Homepage
 
-![Bluefly](./bigBasket.png)
+![Bluefly](./bluefly.png)
 
 There are 10 files
 
-1. index.html/css which homepage of the BigBasket.
+1. index.html/css which homepage of the Bluefly.
 2. All_product.html/css where we displayed all the products of the local storage
 3. Login & Sign Up Page (local Storage)
 4. Cart.html/css has been dynamic

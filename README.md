@@ -3,7 +3,7 @@ About A web application to order Clothing ,accessories and fashion products. Ind
 
 ### Homepage
 
-![Bluefly](./bluefly.png)
+![Bluefly](bluefly.PNG)
 
 There are 10 files
 
